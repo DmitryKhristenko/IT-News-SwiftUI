@@ -1,5 +1,5 @@
-# Flash-Chat
+# IT-News-SwiftUI
 
-Flash Chat is an internet based messaging app similar to WhatsApp. App using Firebase Firestore as a backend database to store and retrieve our messages from the cloud. 
+This app works with algolia Hacker news page api. App was written entirely on SwiftUI. Web pages works with WebKit.
 
 ![](IT_News.gif)
