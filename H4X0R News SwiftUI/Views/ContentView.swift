@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  H4X0R News SwiftUI
+//  IT News SwiftUI
 //
 //  Created by Дмитрий Х on 29.09.22.
 //
@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     @ObservedObject var networkManager = NetworkManager()
-    
     var body: some View {
         NavigationView {
             List(networkManager.posts) { post in
@@ -21,7 +19,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationBarTitle("H4XOR NEWS")
+            .navigationBarTitle("IT NEWS")
         }
         .onAppear {
             self.networkManager.fetchData()
@@ -34,4 +32,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

@@ -1,6 +1,6 @@
 //
 //  PostData.swift
-//  H4X0R News SwiftUI
+//  IT News SwiftUI
 //
 //  Created by Дмитрий Х on 29.09.22.
 //
