@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5920C8428E629210049F9DD /* H4X0R_News_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5920C8328E629210049F9DD /* H4X0R_News_SwiftUIApp.swift */; };
+		B5920C8428E629210049F9DD /* IT News SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5920C8328E629210049F9DD /* IT News SwiftUI.swift */; };
 		B5920C8628E629210049F9DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5920C8528E629210049F9DD /* ContentView.swift */; };
 		B5920C8828E629260049F9DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5920C8728E629260049F9DD /* Assets.xcassets */; };
 		B5920C8B28E629260049F9DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5920C8A28E629260049F9DD /* Preview Assets.xcassets */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		B5920C8028E629210049F9DD /* ITNewsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITNewsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5920C8328E629210049F9DD /* H4X0R_News_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_News_SwiftUIApp.swift; sourceTree = "<group>"; };
+		B5920C8328E629210049F9DD /* IT News SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IT News SwiftUI.swift"; sourceTree = "<group>"; };
 		B5920C8528E629210049F9DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5920C8728E629260049F9DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5920C8A28E629260049F9DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -27,7 +27,7 @@
 		B5920C9428E62E050049F9DD /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		B5D4FAFB28E6FEB50028998D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B5D4FAFD28E707640028998D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		B5D4FAFF28E713730028998D /* H4X0R News SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4X0R News SwiftUI.entitlements"; sourceTree = "<group>"; };
+		B5D4FAFF28E713730028998D /* IT News SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IT News SwiftUI.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		B5920C7728E629200049F9DD = {
 			isa = PBXGroup;
 			children = (
-				B5920C8228E629210049F9DD /* H4X0R News SwiftUI */,
+				B5920C8228E629210049F9DD /* IT News SwiftUI */,
 				B5920C8128E629210049F9DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,17 +57,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5920C8228E629210049F9DD /* H4X0R News SwiftUI */ = {
+		B5920C8228E629210049F9DD /* IT News SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B5D4FAFF28E713730028998D /* H4X0R News SwiftUI.entitlements */,
-				B5920C8328E629210049F9DD /* H4X0R_News_SwiftUIApp.swift */,
+				B5D4FAFF28E713730028998D /* IT News SwiftUI.entitlements */,
+				B5920C8328E629210049F9DD /* IT News SwiftUI.swift */,
 				B5D4FAF828E6FE440028998D /* Views */,
 				B5920C9128E62C470049F9DD /* Models */,
 				B5920C8728E629260049F9DD /* Assets.xcassets */,
 				B5920C8928E629260049F9DD /* Preview Content */,
 			);
-			path = "H4X0R News SwiftUI";
+			path = "IT News SwiftUI";
 			sourceTree = "<group>";
 		};
 		B5920C8928E629260049F9DD /* Preview Content */ = {
@@ -194,7 +194,7 @@
 				B5920C9528E62E050049F9DD /* PostData.swift in Sources */,
 				B5920C8628E629210049F9DD /* ContentView.swift in Sources */,
 				B5D4FAFE28E707640028998D /* WebView.swift in Sources */,
-				B5920C8428E629210049F9DD /* H4X0R_News_SwiftUIApp.swift in Sources */,
+				B5920C8428E629210049F9DD /* IT News SwiftUI.swift in Sources */,
 				B5D4FAFC28E6FEB50028998D /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,11 +321,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "H4X0R News SwiftUI/H4X0R News SwiftUI.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "IT News SwiftUI/IT News SwiftUI.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"IT News SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5X6RZ5N5BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -340,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitry4ch.H4X0R-News-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitry4ch.IT News SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -356,11 +356,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "H4X0R News SwiftUI/H4X0R News SwiftUI.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "IT News SwiftUI/IT News SwiftUI.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"IT News SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5X6RZ5N5BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -375,7 +375,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitry4ch.H4X0R-News-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitry4ch.IT News SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
